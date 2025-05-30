@@ -30,7 +30,11 @@ app.get('/Maximiliano', (req, res) => {
    res.status(200).send("esto es una priueba de una tercera URL")
 
 });
+app.get('/Maximiliano', (req, res) => {
+   // res.status(200).json({message:"Hola primer servidor"})
+   res.status(200).send("esto es una priueba de una tercera URL")
 
+});
 app.listen(port, () => {
     mensaje("Servidor iniciado con éxito en http://localhost:" + port);
 });
